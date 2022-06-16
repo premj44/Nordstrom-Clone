@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Bag | Nordstrom</title>
+  <link rel="shortcut icon" href="https://n.nordstrommedia.com/id/ff740c1e-856c-48a2-89cd-d1b1bdf5a849.png?trim=color" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="./styles/cart.css">
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800
+&family=Merriweather:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <a href="index.html">
+    <div id="cartdiv">
+      <img src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt="" srcset="">
+    </div>
+  </a>
+  <!-- content start -->
+
+
+  <div id="heading">
+    <p>Shopping Bag</p>
+  </div>
+
+  <!-- Products Added -->
+
+  </div>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Sr.no</th>
+          <th class="th">Items</th>
+          <th class="th">Later</th>
+          <th class="th">Price</th>
+        </tr>
+      </thead>
+      <tbody id="body1"></tbody>
+    </table>
+  </main>
+
+
+  <div id="HeadBoox">
+    <!--maindiv-------------------->
+
+    <div id="Leftdiv">
+      
+
+      <div id="LeftItems">
+        <!-- Left items-------------------->
+        <h2 style="font-weight:lighter;color: rgba(8, 116, 8, 0.815);">SAVED FOR LATER</h2>
+        <div id="Savelater"></div>
+      </div>
+    </div>
+
+    <div id="Rightdiv">
+      <!-- price-------------------->
+
+      <div id="rightPrice">
+        <!-- total & sub total-------------------->
+
+        <div class="pink98"></div>
+        <div id="updiv">
+          <p id="SubTotal">Item Sub Total: <span class="rupee₹₹">INR<h5 class="priceshow"></h5></span></p> <br>
+        </div>
+
+        <div class="pink99"></div>
+        <div id="dowdiv">
+          <p id="Totalinhand">Estimated Total: <span class="rupee₹₹">INR<h5 class="priceshow2"></h5></span></p> <br>
+        </div>
+      </div>
+
+      <div id="placeShop">
+        <!-- Check out div-------------------->
+        <div>
+          <span><a href="checkout.html"><button onclick="placeorder()" class="end-btn">Check Out Now</button></a></span>
+        </div>
+        <div id="placeShopPara" style="text-align: center; padding-right: 7px;">
+          <p style="margin-left: 50px;">
+            Delivery
+            International orders usually arrive within 5–13 business days. We'll give you delivery dates in checkout.
+          </p>
+        </div>
+        <div id="promoCode">
+          <h3 style="text-decoration: underline;">Add a promo</h3>
+          <p>20% flat off on using IndusInd credit card</p>
+          <form action="" id="form"><input id="Couponbox" type="text" placeholder="Promo" type="submit" /><span><input
+                id="couponbtn" type="submit" value="APPLY" placeholder="APPlY COUPON HERE" onclick="valid() ;"></span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- //------------------Footer Div-----------// -->
+
+  <div id="footer"></div>
+
+  <!----------- content end -------------------->
+
+</body>
+
+</html>
+
+<script src="./scripts/cart.js"></script>
+<script src="./scripts/nav.js" type="module"></script>
+<script src="./scripts/foot.js" type="module"></script>

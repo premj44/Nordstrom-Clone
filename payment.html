@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout International | Nordstrom</title>
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link rel="shortcut icon" href="https://n.nordstrommedia.com/id/ff740c1e-856c-48a2-89cd-d1b1bdf5a849.png?trim=color" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800
+&family=Merriweather:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a3d9ab2a22.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a href="index.html">
+        <div id="cartdiv">
+            <img id="imglogo" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt="" srcset="">
+            <h5><a href="cart.html"><i id="bag" class="bi bi-bag-check"></i></a></p>
+            </h5>
+        </div>
+    </a>
+    <hr style="width:83%;margin-top: -20px;">
+    <div id="lock">
+        <i class="fa-solid fa-lock"></i>
+        <h2>Secure Checkout</h2>
+        <p> powered by Borderfree</p>
+        <select id="option">
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Marathi</option>
+        </select>
+    </div>
+
+    <p>Already have a Borderfree account? Click <span
+            style="color:#2a9dcc;text-decoration: underline;">here.</span><span><i id="two"
+                class="fa-solid fa-circle-question"></i></span></p>
+    <hr width="83%">
+    
+
+    <!-- ************************************************ -->
+    <div class="container">
+        <h6><span>1</span>Delivery<span class="ch">(Change)</span></h6>
+        <h5 style="margin-top: -20px;margin-left:40px;font-weight: 600;
+        color: rgba(65, 62, 62, 0.966);">Delivery Address :</h5>
+    </div>
+    <hr width="83%">
+    <div class="paymentdiv">
+
+        <div class="pay1">
+            <h6 style="margin-top: -1px;"><span style="background-color: black;color:white;border: none">2</span>Payment</h6>
+            <p class="word">My Billing address same as delivery address...</p>
+            <h3 class="card"><span><i class="fa-solid fa-credit-card"></i></span> Card</h3>
+
+            <div class="carddetails">
+                <form action="">
+                    <input type="number" placeholder="Card number *" id="cardno">
+                    <input type="month" id="start" name="start" min="2018-03" value="2022-05">
+
+                    <input type="number" placeholder="CVV *" id="cvv"><span><i id="two"
+                      style="margin-left: 10px;font-size:20px;"  class="fa-solid fa-circle-question"></i></span>
+                    <input type="text" placeholder="Name on Card *" id="name">
+                    <img src="./images/payment.png" class="payimg" srcset="">
+
+            </div>
+
+            <div class="lastdiv">
+                <p class="send"><span><input type="checkbox" class="check"></span> Send me electronic or mail offers from Borderfree. You may opt out at any time.</p>
+                <p class="send"><span><input type="checkbox" class="check"></span>Send me electronic or mail offers from Nordstrom. You may opt out at any time.</p>
+                <input type="submit" id="input" value="Place Order >>">
+                <p>This order total is 100% guaranteed. There will be no additional charges due upon receipt.</p>
+               
+            </div>
+            </form>
+        </div>
+        
+        <div class="final">
+            <hr style="margin-left: 100px;">
+             <p style="color: grey;">By placing your order, you agree to the Terms & Conditions and Privacy Policy of Borderfree from Pitney Bowes, Nordstrom’s international fulfillment service. Borderfree is an online merchant that is located at Shelton, US, 06484, 27 Waterview Drive, CT.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="./scripts/payment.js"></script>

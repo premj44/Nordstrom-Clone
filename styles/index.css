@@ -1,0 +1,332 @@
+body {
+    font-family: Brandon Text, Arial, sans-serif;
+}
+
+#ind {
+    background-color: black;
+    height: 55px;
+
+}
+
+#indlogo {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 830px;
+    cursor: pointer;
+}
+
+#in {
+    margin-top: -15px;
+    display: flex;
+    margin-left: 420px;
+    gap: 290px;
+    color: white;
+    cursor: pointer;
+}
+
+#top {
+    margin-top: 35px;
+    display: flex;
+    margin-left: 25px;
+}
+
+#logo {
+    width: 198px;
+    height: 25px;
+    margin-top: 10px;
+    background-size: 198px 25px;
+}
+
+.search {
+    width: 30px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 8px;
+}
+
+input {
+    width: 750px;
+    height: 40px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+#navsign {
+    display: flex;
+    width: 150px;
+    margin-left: 80px;
+   
+}
+
+h3>a {
+    text-decoration: none;
+    color: rgb(100, 87, 87);
+}
+
+h5>a {
+    font-size: 20px;
+    margin-top: -8px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+#cartno{
+    margin-left: -2px;
+    margin-top: -1px;
+    font-size: 20px;
+    width: 12px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgba(255, 192, 203, 0.603);
+}
+#pr4 {
+    margin-top: 25px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    background-color: #f6f6ec;
+}
+
+#pr4>p {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+   padding: 12px 9px;
+    font-size: 14px;
+    background-color: white;
+}
+
+#pr4 a,
+#pr5 a,
+#pr6 a,
+#pr7 a {
+    color: rgba(0, 0, 0, 0);
+}
+
+#pr41:hover,
+#pr42:hover,
+#pr43:hover,
+#pr44:hover,
+#pr45:hover,
+#pr46:hover,
+#pr47:hover {
+
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.219);
+
+}
+#signin:hover{
+    background-color: rgba(0, 0, 0, 0.219);
+    color: white;
+}
+
+
+
+#land8 {
+    display: block;
+    background-image: url("https://www.jcrew.com/brand_creative/2022/202205-May/cc_newarrivals/2022may_0426_na_b_img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sub2pr7 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+#sub2pr7>div {
+    text-align: center;
+}
+
+#sub2pr7 img {
+    width: 100%;
+}
+
+#landing h1 {
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+#landing h2 {
+    font-weight: lighter;
+
+}
+
+#pr2 p,
+#pr3 p,
+#pr4 p,
+#pr5 p,
+#pr6 p,
+#pr7 p {
+    font-size: 18px;
+}
+
+#pr4 a,
+#pr5 a,
+#pr6 a,
+#pr7 a {
+    color: black;
+}
+
+#sub2pr7 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+#sub2pr7>div {
+    text-align: center;
+}
+
+#sub2pr7 img {
+    width: 100%;
+}
+
+
+
+
+#pr6 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 40px 0px;
+}
+
+#pr6>div {
+    display: flex;
+    align-items: center;
+}
+
+#subpr6 {
+    gap: 5px;
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
+}
+
+#subpr6 div {
+    border-radius: 0px;
+}
+
+#pr6img1 {
+    background-image: url("https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQ0NDI0NDg2Ljg4NDU0NDQ4NDQwMC5qcGVn.jpg?w=640&h=640&fit=cover");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+}
+
+#pr6img2 {
+    background-image: url("https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQ5NDM1NzQ0LjE0ODU4NjUzNzk0OS5qcGVn.jpg?w=640&h=640&fit=cover");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+}
+
+#pr6img3 {
+    background-image: url("https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjUwNDg4MjcxLjIxMDg2MjI2MDU3OS5qcGVn.jpg?w=640&h=640&fit=cover");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+}
+
+#pr6img4 {
+    background-image: url("https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjUwNjMwMTk2LjEwNjY0NjExNjMuanBlZw==.jpg?w=640&h=640&fit=cover");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+
+
+}
+
+#spr61,
+#spr62,
+#spr63,
+#spr64 {
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+#pr6img1:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#pr6img2:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#pr6img3:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#pr6img4:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#sub2pr7 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+#sub2pr7>div {
+    text-align: center;
+}
+
+#sub2pr7 img {
+    width: 100%;
+}
+
+
+
+#sign1,
+#sign2 {
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign1 {
+    padding-left: 5px;
+}
+
+#sign2 {
+    padding-right: 5px;
+}
+
+#sign1:hover {
+    border-left: 2px solid grey;
+    color: bl;
+}
+
+#sign2:hover {
+
+    border-right: 2px solid grey;
+    color: rgb(12, 12, 12);
+}
+
+#pr4 a,
+#pr5 a,
+#pr6 a,
+#pr7 a {
+    color: black;
+}

@@ -1,0 +1,114 @@
+#main>.hr{
+    margin-top: 50px;
+    width: 100%;
+}
+body{
+    font-family: soleil, Helvetica, Arial, sans-serif;
+}
+
+.img1 {
+    margin-left: 450px;
+}
+
+#main2 {
+    background-color: #f0f1f2;
+    display: flex;
+    gap: 80px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 17px;
+    font-size: 15px;
+}
+
+.help {
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.help>p {
+    color: black;
+    text-decoration: none;
+}
+
+.links{
+    margin-top: 25px;
+}
+
+.links>p>a,.help>p>a,.about>p>a{
+    text-decoration: none;
+   color: black;
+   font-family: 'Inter', sans-serif;
+}
+
+.about{
+    margin-top: 25px;
+}
+.get {
+    color: gray;
+}
+
+#em {
+    margin-left: -0px;
+    width: 250px;
+    height: 14px;
+    padding: 9px;
+}
+
+.downbtn {
+   
+    padding: 12px;
+    height: 14px;
+    background-color: black;
+    color: white;
+}
+
+.like {
+    margin-top: 40px;
+}
+
+
+.icon {
+    background-color: #f0f1f2;
+
+}
+
+.fa {
+    margin-top: 35px;
+    margin-left: 45px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.india {
+    display: flex;
+    gap: 10px;
+    background-color: #f0f1f2;
+
+}
+
+.india>p {
+    margin-top: 40px;
+    margin-left: 45px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.flag {
+    width: 23px;
+    height: 17px;
+    margin-top: 40px;
+}
+
+.lastimg {
+    margin-left: -23px;
+    margin-top: -14px;
+    background-color: #f0f1f2;
+}
+
+.downbtn{
+    border: none;
+    height: 35px;
+}

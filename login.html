@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="shortcut icon" href="https://n.nordstrommedia.com/id/ff740c1e-856c-48a2-89cd-d1b1bdf5a849.png?trim=color" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800
+&family=Merriweather:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Login | Nordstrom</title>
+</head>
+<body>
+    <!-- <h3 onclick="showModal()">Login</h3> -->
+    <img style="width: 100%;" src="./images/imgcrop.png" alt="">
+    <div id="s_mainbox" class="isactive"> 
+        <div id="s_bg">
+            <form id="s_form1" onsubmit="javascript:void(0)">
+        
+                    <h2>Sign in</h2>
+                    <br>
+                    <button id="closebtn" onclick="showModal()">
+                        &times;
+                    </button>
+                    <input type="email" id="emaillogin" placeholder="Email Address*">
+                    <br><br>
+                    <div id="pwd-pannel">
+                        <input type="password" id="pwdlogin" placeholder="Password*" >
+                        <button id="password-control"></button>
+                    </div>
+                    
+                    <br><br>
+                   <div class="c_box">
+                    <span><input type="checkbox" checked="checked" class="remember">Remember me</span>
+                    <span><a href="">Forgot Password?</a></span>
+                   </div>
+                        
+                    <br><br>
+                    <button class="btn1" onclick="login(event)">SIGN IN</button>
+                    <br><br>
+                    <p>This site is protected by reCAPTCHA and the Google</p> 
+                    <p>Privacy Policy and Terms of Service apply.</p>
+                    <br><br>
+                    <hr>
+                    <br><br>
+                    <h3><span>Don't have an account?</span><span><a href="signup.html">SignUp Now</a></span></h3>
+            </form>
+           
+        </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/login.js"></script>

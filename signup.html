@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://n.nordstrommedia.com/id/ff740c1e-856c-48a2-89cd-d1b1bdf5a849.png?trim=color" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800
+&family=Merriweather:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Signup | Nordstrom</title>
+</head>
+
+<body>
+    <img style="width: 100%;" src="./images/imgcrop.png" alt="">
+    <div id="s_mainbox" class="isactive">
+        <div id="s_bg">
+            <form id="s_form1" onsubmit="javascript:void(0)">
+
+                <h2>Sign up</h2>
+                <br>
+                <button id="closebtn">
+                    &times;
+                </button>
+                <input type="email" id="email" placeholder="Email Address*">
+                <br><br>
+                <div id="pwd-pannel">
+                    <input type="password" id="pwd" placeholder="Create Password*">
+                    <button id="password-control"></button>
+                </div>
+
+                <br><br>
+                <select name="" id="country">
+                    <option value="India">India</option>
+                    <option value="United States">United States</option>
+                    <option value="Australia">Australia</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Others">Others</option>
+                </select>
+                <br><br>
+                <span><input type="checkbox" checked="checked" class="remember">Remember me</span>
+                <br><br>
+                <button class="btn1" onclick="register(event)">CREATE AN ACCOUNT</button>
+                <br><br>
+                <p>By clicking "Create an Account", you agree to our Terms <br> of Use and Privacy Policy, including the
+                    Use of Cookies <br> and the transfer of your personal information to the <br> United States, a
+                    jurisdiction that may not provide an <br> equivalent level of data protection to the laws in your
+                    <br> home country.</p>
+                <br><br>
+                <hr>
+                <br><br>
+                <h3><span>Already have an account?</span>
+                    <span><a href="login.html" onclick="showModal()">Sign in</a></span>
+                </h3>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./scripts/signup.js"></script>

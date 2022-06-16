@@ -1,0 +1,157 @@
+
+body{
+    font-family: soleil, Helvetica, Arial, sans-serif;
+}
+#hr{
+    text-align: center;
+    padding: 14px;
+}
+#h1{
+    padding-left: 34%;
+}
+#size{
+    margin-left: 30%;
+}
+.size>span:hover{
+    border-color:black ;
+
+}
+#size>p{
+    margin-left: 22%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.size>span{
+    border: solid 2px rgb(189, 187, 187);
+    padding: 9px 20px;
+    margin-left: 6px;
+    font-size:small;
+    box-sizing: border-box;   
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 20px;
+}
+#show_filters,#featured{
+
+    height: 34px;
+    padding: 2px 8px;
+}
+#se{
+    height: 34px;
+    padding: 1px 8px;
+}
+.lb{
+    margin-left: 2px;
+}
+
+.sidehr{
+    display: inline;
+    border-left: solid 1px;
+    
+}
+.v{
+   display: inline; 
+   margin-left: 3px;
+}
+#sort{
+    display: flex;
+    width: 21%;
+    justify-content: space-between;
+}
+
+.data{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    margin: auto;
+
+    gap: 20px;
+
+}
+.data>div{
+
+    padding: 25px;
+   
+    font-size: 12px;
+    line-height: 6px;
+ 
+}
+#div1:hover{
+    
+    padding:10px;
+    
+    transition: transform .3s;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+.span{
+    position: absolute;
+    
+    font-weight: lighter;
+    margin-left:-4%;
+    margin-top: 20px;
+    font-size: 40px;
+    width: 20px;height: 20px;
+      
+}
+#span:hover{
+    color: red;
+    
+    cursor: pointer;
+}
+#csbtn{
+    display: none;
+    position: relative ;
+     margin-right: 10%; 
+     margin-top: -4%; 
+    background-color: rgb(250, 250, 250);
+    margin-left: 32%;
+    color: black;
+    width: 120px;
+    height: 40px;  
+}
+
+.data>div>p{
+    color: rgb(44, 43, 43);
+}
+h4{
+    color: gray;
+}
+#p{
+    color: rgb(248, 46, 46);
+}
+
+.csimg{
+    width: 100%;
+    height: 70%;
+}
+#color{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top:-2px;
+    margin-left: -4px;
+    
+
+}
+#color>img{
+    border-radius: 50%;
+    width: 32px;
+}
+#color>img:hover{
+    border: 2px solid black;
+    margin: -5px;
+    padding: 2px;
+    cursor: pointer;
+}
+.col:hover{
+    border: 2px solid black;
+    margin: -5px;
+    padding: 2px;
+    cursor: pointer;
+}
+

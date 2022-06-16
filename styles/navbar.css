@@ -1,0 +1,297 @@
+body{
+    font-family: soleil, Helvetica, Arial, sans-serif;;
+}
+
+#navbarbody {
+    line-height: 15px;
+    font-family: soleil, Helvetica, Arial, sans-serif;}
+
+#navbarbody a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#navbarbody a:hover {
+    text-decoration: underline;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    padding-right: 20px;
+    
+
+}
+
+#navbar div {
+    display: flex;
+    align-items: center;
+}
+
+#navsign a:hover {
+    text-decoration: none;
+}
+
+#nav1 img {
+    height: 80px;
+}
+
+#nav2 img {
+    height: 30px;
+}
+
+#nav1 {
+    gap: 90px;
+    align-items: baseline;
+}
+
+#navsearch {
+    border: 1px solid black;
+    margin-left: 45px;
+}
+
+#nav2 {
+    gap: 30px;
+
+}
+
+#navsign {
+    gap: 30px;
+   
+}
+
+#navsign i {
+  
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.red {
+    color: red;
+
+}
+
+#navbar p {
+    font-size: 17px;
+    padding: 5px 0px;
+}
+
+#navbar p:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+
+}
+
+.red:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#new img {
+    width: 200px;
+}
+
+#new {
+    margin-left: -110px;
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+
+}
+
+#women {
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-left: -99px;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#men {
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: -92px;
+}
+
+#kids {
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: -80px;
+}
+
+#swim {
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: -123px;
+}
+
+#cashmere {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: -430px;
+
+
+}
+
+#cashmere1 {
+    margin-left: 500px;
+    background-color: white;
+    padding: 0px 20px;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+#home {
+    display: none;
+    gap: 90px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: -200px;
+}
+
+#stories {
+
+    display: none;
+    gap: 50px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: -110px;
+}
+
+#sale {
+    display: none;
+    gap: 100px;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0px 45px 0px;
+    font-size: 15px;
+    z-index: 1000;
+    margin-left: -180px;
+}
+
+#women4 {
+    width: 400px;
+}
+
+#women4>div {
+    display: flex;
+}
+
+#subwomen1 {
+    gap: 13px;
+}
+
+#subwomen2 {
+    gap: 4px;
+}
+
+#subwomen1 img {
+    height: 255px;
+}
+
+#subwomen2 img {
+    height: 173px;
+}
+
+#women4 p {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#new4 p,
+#new5 p {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#home3 {
+    display: flex;
+    gap: 20px;
+}
+
+#home3 img {
+    height: 250px;
+}
+
+#home p {
+    margin-top: 0px;
+}
+
+#stories4 {
+    display: flex;
+    gap: 20px;
+}
+
+#stories4 img {
+    height: 250px;
+}
+
+#stories4 p {
+    margin-top: 0px;
+}
+
+#stories1 {
+    padding-top: 15px;
+}
+
+#navlen {
+    /* background-color: rgb(1,97,255); */
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.navgray {
+    color: gray;
+}
+
+#navimg {
+    cursor: pointer;
+}

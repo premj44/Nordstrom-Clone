@@ -1,0 +1,364 @@
+body{
+  font-family: soleil, Helvetica, Arial, sans-serif;
+}
+#cartdiv{
+  width: 150px;
+  margin: 40px;
+}
+#heading{
+  margin-left: 200px;
+  width: 250px;
+  background-color: rgba(128, 128, 128, 0.274);
+  height: 50px;
+  text-align: start;
+  font-size: 25px;
+  margin-bottom: -20px;
+  color: rgba(0, 0, 0, 0.842);
+  border: 1px solid;
+}
+#heading>p{
+  text-align: center;
+  margin-top: 12px;
+}
+
+#HeadBoox{
+margin-top: 10px;
+width: 70%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+border: 1px solid rgba(128, 128, 128, 0.527);
+margin-top: 50px;
+}
+.th{
+  text-align: center;
+}
+
+#Leftdiv{
+  margin-top: -130px;
+  margin-left: 15px;
+text-align:start;
+}
+
+#Couponbox{
+width: 40%;
+height: 25px;
+background-color: white;
+text-align: center;
+border: 1px solid #ddd;
+}
+
+#couponbtn{
+height: 30px;
+color: white;
+background-color: rgb(231, 57, 86);
+border: 1px solid #ddd;
+}
+
+#LeftItems{
+width: 100%;
+height: 400px;
+margin-top: 150px;
+}
+
+#LeftItems h2{
+font-weight: lighter;
+margin-bottom: 7px;
+color:coral;
+margin-left: 10px;
+}
+
+#Savelater{
+border: 1px solid #e1e1e1;
+}
+
+.saveltr{
+margin: auto;
+margin-left: 28px;
+padding: 5px 10px;
+margin-top: 10px;
+border:1px solid #7c8190;
+background-color:#afb3be98;
+color: black;
+}
+.saveltr:hover{
+  background-color: pink;
+}
+
+#Saveltrimg{
+border: 1px solid green;
+height:50%;
+width: 25%;
+padding: 4px;
+}
+
+#Saveltrname{
+padding: 7px;
+}
+
+#Saveltrprice{
+padding: 7px;
+}
+
+#updiv{
+display: flex;
+justify-content:right;
+padding: 5px;
+}
+
+#SubTotal{
+padding-right: 5px;
+margin-top: 30px;
+font-weight: 700;
+}
+
+#Totalinhand{
+margin-right: 5px;
+padding-right: 5px;
+margin-top: 30px;
+font-weight: 700;
+
+}
+
+#dowdiv{
+display: flex;
+justify-content: right;
+}
+
+#placeShop{
+justify-content: right;
+gap: 20px;
+margin-left: 200px;
+height: 340px;
+width: 55%;
+text-align: center;
+}
+
+#placeShopPara{
+text-align: start;
+color: #7c8190;
+margin-left: 15px;
+}
+#promoCode{
+  line-height: 14px;
+  width: 300px;
+}
+
+#promoCode>p{
+color: rgb(252, 87, 114);
+}
+
+.rupee₹₹{
+font-size: 15px;
+color: #393939;
+font-weight: 700;
+
+}
+
+.priceshow{
+font-size: 17px;
+padding-right: 5px;
+color: #393939;
+}
+
+.priceshow2{
+font-size: 17px;
+padding-right: 10px;
+color: #393939;
+}
+
+/* bottom section ends here --------------> */
+
+.end-btn{
+  background-color: black;
+  color: white;
+  border: 0px;
+  margin-left: 61px;
+  margin-top: -50px;
+  padding: 10px 10px;
+  font-size: 20px;
+  width: 87%;
+}
+.end-btn:hover{
+  background-color: #636774;
+}
+
+#coupon{
+  color: whitesmoke;
+  border: 0px;
+  padding: 10px 20px 10px 20px;
+}
+
+#conitem{
+ padding: 10px 15px;
+  margin: auto;
+ display: flex;
+  margin-top: 20px;
+  border: 1px solid gray;
+  max-width: 400px;
+
+}
+
+#Fimg{
+  display: flex;
+  height:100%;
+  width: 21%;
+  margin: auto;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+#itemname{
+
+margin-top: 25px;
+font-weight: 500;
+box-sizing: border-box;
+
+
+}
+
+#Remove-1{
+  background-color:black;
+  color: white;
+  padding: 100x 25px;
+  border: 0px;
+  margin: auto;
+  display: flex;
+}
+
+table tr:nth-child(even) {
+  background-color: transparent;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(216, 215, 215);
+  color: black;
+}
+
+
+/* CArt----------------------------------------> */
+
+table,
+td,
+th {
+border: 1px solid #ddd;
+text-align: left;
+}
+
+table {
+border-collapse: collapse;
+width: 70%;
+margin: auto;
+margin-top: 50px;
+}
+
+th,
+td {
+padding: 15px;
+}
+
+tr > th {
+background-color: #f1f1f1;
+color: black;
+}
+
+
+/* displayMe---------------------------------------> */
+
+.displayMe{
+border: 1px solid rgb(224, 223, 223);
+height: 20px;
+width: 20px;
+text-align: center;
+
+}
+
+#qtydiv{
+display: flex;
+margin: auto;
+padding: 3px;
+box-sizing: border-box;
+gap: 5px;
+justify-content: center;
+
+
+}#minscount , #pluscount{
+border: transparent;
+background-color: transparent;
+height: 15px;
+margin-top: 0px;
+font-size: 20px;
+}.cartwish{
+background-color: transparent;
+border: 0px;
+margin: auto;
+display: flex;
+  justify-content: center;
+margin-top: 10px;
+}.pink6{
+border: 0.05px solid rgb(224, 223, 223);
+margin: auto;
+margin-top: 5px;
+width: 50%;
+margin-bottom: 10px;
+}
+#gross{
+text-align: center;
+font-size: 15px;
+color: #393939;
+font-weight: 700;
+}
+#net{
+text-align: center;
+font-size: 20px;
+}
+
+/* line */
+.pink99{
+border: 0.05px solid rgb(224, 223, 223);
+margin: auto;
+margin-top: 50px;
+width: 20%;
+margin: auto;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-bottom: -10px;
+margin-top: -30px;
+
+}.pink98{
+border: 0.05px solid rgb(224, 223, 223);
+margin: auto;
+margin-top: 50px;
+width: 30%;
+margin: auto;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-bottom: -10px;
+margin-top: 10px;
+}
+
+/* hover efect   courcerpointer  ------------------------> */
+
+#Fimg , #itemname ,#miscount ,#pluscount ,.cartwish , #Remove-1, .end-btn , #couponbtn, .saveltr{
+cursor: pointer;
+}
+#itemname:hover ,#miscount:hover ,#pluscount:hover ,.cartwish:hover {
+color: grey;
+}
+#Remove-1:hover{
+  background-color: red;
+}
+.boxlater{
+  padding: 15px;
+  gap: 25px;
+  display: flex;
+  border: 1px solid green;
+  margin-bottom: 10px;
+}
